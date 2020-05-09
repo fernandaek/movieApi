@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/fernandaek/movieApi/issues"
   },
-  "homepage": "https://github.com/fernandaek/movieApi#readme"
+  "homepage": "https://github.com/fernandaek/movieApi#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
