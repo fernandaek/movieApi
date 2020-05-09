@@ -20,7 +20,9 @@
   "homepage": "https://github.com/fernandaek/movieApi#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "nodemon": "^2.0.3"
+    "mssql": "^6.2.0",
+    "nodemon": "^2.0.3",
+    "tedious": "^8.3.0"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
@@ -30,13 +32,12 @@
   "nodemonConfig": {
     "restartable": "rs",
     "ignore": [
-    "node_modules/**/node_modules"
+      "node_modules/**/node_modules"
     ],
     "delay": "2500",
     "env": {
-    "NODE_ENV": "development",
-    "PORT": 4000
+      "NODE_ENV": "development",
+      "PORT": 4000
     }
-   }
-   
+  }
 }
